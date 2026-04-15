@@ -49,4 +49,9 @@ packages
 
 .pyzule*
 .cyan*
+.ipapatch*
 dumps
+livecontainer
+
+src/**/wip.x
+src/**/wip.xm

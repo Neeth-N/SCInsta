@@ -20,7 +20,7 @@ on:
                 type: boolean
     push:
         branches:
-            - main
+            - insta-sdk-build
   
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
@@ -85,7 +85,7 @@ jobs:
                 
               env:
                 THEOS: ${{ github.workspace }}/theos
-                Instagram_URL: ${{ inputs.decrypted_instagram_url }}
+                Instagram_URL: "https://drive.usercontent.google.com/download?id=1QU8SzHV3SEJRgY5v9HehFD7EA5Cw6jM5&export=download&authuser=0&confirm=t&uuid=3993b0a1-fe68-4f7b-9200-d9720a203890&at=ALBwUgmf0UsK4x6iwOglXIsELWxB%3A1776221869718"
 
             - name: Get SCInsta Version
               id: scinsta_version
